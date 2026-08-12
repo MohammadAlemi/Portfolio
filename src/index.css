@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.sidebarActive{
+    display: block;
+}
+.sidebarDeactive{
+    display: hidden;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
