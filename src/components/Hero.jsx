@@ -28,8 +28,8 @@ const Hero = () => {
             <p className='text-[#94A3B8] md:text-[18px] font-normal mt-6 text-justify'>Computer Science student and web developer passionate about building interactive websites and applications using React, Laravel, and modern web technologies.
 I enjoy solving problems, learning new technologies, and building real-world projects that improve my development skills. My goal is to become a skilled full-stack developer and create impactful digital solutions.</p>
             <div className='flex md:flex-row flex-col mt-12 gap-5 md:justify-center lg:justify-start  text-white'>
-                <button className='bg-[#0088b9] px-10 py-4 rounded-4xl flex items-center justify-between gap-3 hover:bg-[#046a8f] cursor-pointer transition duration-300'><a href="#projects" className='flex items-center justify-between gap-3'>View Projects<FaArrowRightLong /></a></button>
-                <button className='bg-[#0088b9] px-10 py-4 rounded-4xl flex items-center justify-between gap-3 hover:bg-[#046a8f] cursor-pointer transition duration-300'><a href={cv} download={cv} className='flex items-center justify-between gap-3' >Download CV <FaCircleArrowDown /></a></button>
+                <button className='bg-[#0088b9] px-10 py-4 rounded-4xl flex items-center justify-between gap-3 hover:bg-[#046a8f] cursor-pointer transition duration-300'><a href="#projects" className='flex items-center justify-between gap-47 sm:gap-3'>View Projects<FaArrowRightLong /></a></button>
+                <button className='bg-[#0088b9] px-10 py-4 rounded-4xl flex items-center justify-between gap-3 hover:bg-[#046a8f] cursor-pointer transition duration-300'><a href={cv} download={cv} className='flex items-center justify-between gap-47 sm:gap-3' >Download CV <FaCircleArrowDown /></a></button>
             </div>
         </section>
         {/* right */}
